@@ -4,10 +4,8 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'vue-portfolio'
-    ? '/vue-portfolio/'
-    : '/',
   outputDir: './docs',
+  publicPath: '/vue-portfolio/',
   chainWebpack: config => {
       config.module.rules.delete('eslint');
   }
