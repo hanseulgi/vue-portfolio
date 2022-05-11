@@ -1,0 +1,40 @@
+#app {
+  padding: 30px;
+}
+
+h1.top-title {
+  font-size: 18px;
+  border-bottom: 10px solid #f1d806;
+  display: inline-block;
+}
+
+.list-filter {
+  margin-top: 30px;
+}
+
+.list-filter label {
+  padding: 0 20px;
+  cursor: pointer;
+}
+.list-filter label:first-child {
+  padding-left: 0;
+}
+.list-filter input {
+  display: none;
+}
+
+.lists-view {
+  margin-top: 30px;
+}
+.view-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.view-items {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 0 0 20%;
+}
