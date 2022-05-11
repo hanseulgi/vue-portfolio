@@ -7,6 +7,36 @@
   column-gap: 30px;
   column-count: 5;
 }
+
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .masonry-list[data-colum="5"]{
+    column-count: 1;
+  }
+  [class^='project-']{
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  [class^='project-'] span {
+    font-size: 12px;
+  }
+  .project-name { font-size: 16px !important; }
+
+  .list-filter label { font-size: 14px !important; padding: 10px 10px 0 0 !important}
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .masonry-list[data-colum="5"]{
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1919px) {
+  .masonry-list[data-colum="5"]{
+    column-count: 4;
+  }
+}
+
 .masonry-item {
   display: inline-block;
   vertical-align: top;

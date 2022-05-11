@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1 class="top-title">{{hostname}}의 portfolio 사이트 입니다.</h1>
+    <h1 class="top-title">{{hostname}} portfolio</h1>
     <Projects></Projects>
   </header>
 </template>
