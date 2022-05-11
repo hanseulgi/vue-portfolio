@@ -5,14 +5,19 @@
       <label><input type="radio" v-model="selectedCategory" value="2022" /> 2022</label>
       <label><input type="radio" v-model="selectedCategory" value="2021" /> 2021</label>
       <label><input type="radio" v-model="selectedCategory" value="2020" /> 2020</label>
+      <label><input type="radio" v-model="selectedCategory" value="2019" /> 2019</label>
+      <label><input type="radio" v-model="selectedCategory" value="2018" /> 2018</label>
+      <label><input type="radio" v-model="selectedCategory" value="2017" /> 2017</label>
     </div>
     <div class="lists-view">
-      <ul class="view-list">
-        <li class="view-items" :key="i" v-for="(portfolio, i) in portfolioList">
+      <ul class="view-list masonry-list" data-colum="5">
+        <li class="view-items masonry-item" :key="i" v-for="(portfolio, i) in portfolioList">
           <img class="porject-image" :src="portfolio.image" />
-          <span class="project-name">{{portfolio.name}}</span>
+          <p class="project-name">{{portfolio.name}}</p>
+          <p class="project-date"><span>기간</span> {{portfolio.date}}</p>
+          <p class="project-participation"><span>참여도</span> {{portfolio.participation}}</p>
           <p class="project-description">{{portfolio.description}}</p>
-          <a class="project-url" v-bind:href="portfolio.url">링크 이동</a>
+          <a class="project-url" v-bind:href="portfolio.url" target="_blank">VISET SITE</a>
         </li>
       </ul>
     </div>

@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+
 body{
 	overflow-y:scroll;
 }
@@ -11,7 +13,8 @@ nav,output,ruby,section,summary,time,mark,audio,video {
   border: 0;
   font-size: 16px;
   vertical-align: baseline;
-  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-family: 'Nanum Myeongjo', serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,
