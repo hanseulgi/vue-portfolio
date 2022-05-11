@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// 가져올 컴포넌트
+
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {

@@ -10,7 +10,7 @@
 
 
 <script>
-// 가져올 컴포넌트
+
 import Header from '@/components/Header.vue'
 
 export default {

@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// 가져올 컴포넌트
+
 import DataBindingList from '@/components/DataBindingList.vue'
 
 export default {
