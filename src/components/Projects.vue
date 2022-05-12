@@ -25,13 +25,11 @@
 </template>
 
 <script>
-export default { 
-
+export default {
   data() {
     return {
       portfolioList: [],
       selectedCategory: "All",
-      isActive: false,
     };
   },
   created() {
@@ -63,7 +61,4 @@ export default {
 </script>
 
 <style scoped>
-.active {
-  color: red;
-}
 </style>

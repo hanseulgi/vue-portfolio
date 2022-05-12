@@ -20,9 +20,9 @@ npm run build
 npm run lint
 ```
 
-### page visit
+### Page view
 ```
-https://hanseulgi.github.io/vue-portfolio
+[Click here](https://hanseulgi.github.io/vue-portfolio)
 ```
 
 ### Customize configuration
