@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 
 body{
@@ -11,10 +11,11 @@ nav,output,ruby,section,summary,time,mark,audio,video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 16px;
+  font-size: 15px;
   vertical-align: baseline;
-  line-height: 1.5;
-  font-family: 'Nanum Myeongjo', serif;
+  line-height: 1.4;
+  font-family: 'Nanum Gothic', sans-serif;
+
 }
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,
