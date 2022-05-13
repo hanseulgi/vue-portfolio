@@ -30,6 +30,7 @@ export default {
     return {
       portfolioList: [],
       selectedCategory: "All",
+      isActive: false,
     };
   },
   created() {
@@ -61,4 +62,7 @@ export default {
 </script>
 
 <style scoped>
+.active {
+  color: red;
+}
 </style>
