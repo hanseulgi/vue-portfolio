@@ -5,7 +5,7 @@ module.exports = defineConfig({
 
 module.exports = {
   outputDir: './docs',
-  publicPath: '/vue-portfolio/',
+  publicPath: '/vue-portfolio',
   chainWebpack: config => {
       config.module.rules.delete('eslint');
   }
