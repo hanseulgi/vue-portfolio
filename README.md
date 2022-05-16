@@ -22,7 +22,7 @@ npm run lint
 
 ### Page view
 ```
-[Click here](https://hanseulgi.github.io/vue-portfolio)
+https://hanseulgi.github.io/vue-portfolio
 ```
 
 ### Customize configuration
