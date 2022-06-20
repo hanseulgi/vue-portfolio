@@ -11,7 +11,7 @@
     </div>
     <div class="lists-view">
       <ul class="view-list masonry-list" data-colum="5">
-        <li class="view-items masonry-item" :key="i" v-for="(portfolio, i) in portfolioList">
+        <li class="view-items masonry-item" :key="i" v-for="(portfolio, i) in portfolioList"> 
           <img class="porject-image" :src="portfolio.image" />
           <p class="project-name">{{portfolio.name}}</p>
           <p class="project-date"><span>기간</span> {{portfolio.date}}</p>
@@ -52,7 +52,7 @@ export default {
 	},
   methods: {
     async getList() {
-      this.portfolioList = await this.$api("https://a9dbae70-de04-4018-aaf2-13e1b7a17d2d.mock.pstmn.io/portfolioList","get");  //postman에 넣어둔 json형태 data 
+      this.portfolioList = await this.$api("https://a9dbae70-de04-4018-aaf2-13e1b7a17d2d.mock.pstmn.io/portfolioList","get");  //postman에 넣어둔 json형태 data  
     },
     activate() {
       this.isActive = true;
