@@ -52,7 +52,7 @@ export default {
 	},
   methods: {
     async getList() {
-      this.portfolioList = await this.$api("https://a9dbae70-de04-4018-aaf2-13e1b7a17d2d.mock.pstmn.io/portfolioList","get");  //postman에 넣어둔 json형태 data
+      this.portfolioList = await this.$api("https://a9dbae70-de04-4018-aaf2-13e1b7a17d2d.mock.pstmn.io/portfolioList","get");  //postman에 넣어둔 json형태 data 
     },
     activate() {
       this.isActive = true;
